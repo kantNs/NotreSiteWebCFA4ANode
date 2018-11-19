@@ -6,7 +6,6 @@ var logger = require('morgan');
 var session = require('express-session')
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var FileStore = require('session-file-store')(session);
 
 var app = express();
 
